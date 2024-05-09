@@ -2,7 +2,6 @@ using CodePulse.API.Data;
 using CodePulse.API.Repositories.Implementation;
 using CodePulse.API.Repositories.Interface;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -19,6 +18,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => {
 });
 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IBlogPostRepository, BlogPostRepository>();
 
 var app = builder.Build();
 
