@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\jaime\\Documents\\Coding\\CodePulse\\API\\CodePulse.API\\CodePulse.API.csproj": {}
+    "C:\\Users\\jaime\\Documents\\Coding\\CodePulse\\API\\CodePulse.API\\CodePulse.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\jaime\\Documents\\Coding\\CodePulse\\API\\CodePulse.API\\CodePulse.API.csproj": {
+    "C:\\Users\\jaime\\Documents\\Coding\\CodePulse\\API\\CodePulse.API\\CodePulse.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jaime\\Documents\\Coding\\CodePulse\\API\\CodePulse.API\\CodePulse.API.csproj",
+        "projectUniqueName": "C:\\Users\\jaime\\Documents\\Coding\\CodePulse\\API\\CodePulse.API\\CodePulse.API.csproj",
         "projectName": "CodePulse.API",
-        "projectPath": "c:\\Users\\jaime\\Documents\\Coding\\CodePulse\\API\\CodePulse.API\\CodePulse.API.csproj",
+        "projectPath": "C:\\Users\\jaime\\Documents\\Coding\\CodePulse\\API\\CodePulse.API\\CodePulse.API.csproj",
         "packagesPath": "C:\\Users\\jaime\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jaime\\Documents\\Coding\\CodePulse\\API\\CodePulse.API\\obj\\",
+        "outputPath": "C:\\Users\\jaime\\Documents\\Coding\\CodePulse\\API\\CodePulse.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jaime\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.4, )"
@@ -57,9 +65,17 @@
               "target": "Package",
               "version": "[8.0.4, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.1, )"
             }
           },
           "imports": [
