@@ -1,12 +1,11 @@
 using CodePulse.Api.Models.DTO;
 using CodePulse.API.Models.Domain;
 using CodePulse.API.Models.DTO;
-using CodePulse.API.Repositories.Implementation;
 using CodePulse.API.Repositories.Interface;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.VisualBasic;
 
-namespace CodePulse.API.Controllers {
+namespace CodePulse.API.Controllers
+{
     // https://localhost:xxxx/api/categories
     [Route("api/[controller]")]
     [ApiController]
